@@ -7,13 +7,13 @@ def insertionSort(a):
             j-=1
         a[j+1]=key
 
-print('Sorting by directly giving inputs.')
+print('Insertion Sorting by directly giving inputs.')
 arr=[85,96,78,52,45,21]
 insertionSort(arr)
 for i in range(len(arr)):
     print(arr[i])   
 
-print('Sorting by taking inputs from user.')
+print('Insertion Sorting by taking inputs from user.')
 arr2=[]
 n=int(input('Input the size of array: '))
 print('Enter the ',n,' elements.')

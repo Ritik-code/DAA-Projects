@@ -6,13 +6,13 @@ def selectionSort(a):
                 min = j
         a[i],a[min] = a[min],a[i]
 
-print('Sorting by directly giving inputs.')
+print('Selection Sorting by directly giving inputs.')
 arr = [54,69,85,48,52]
 selectionSort(arr)
 for i in range(len(arr)):
     print(arr[i])
 
-print('Sorting by taking input from user.')
+print('Selection Sorting by taking input from user.')
 n = int(input('Enter the number of elements: '))
 arr2=[]
 print('Enter the elements: ')
