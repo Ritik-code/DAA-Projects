@@ -4,13 +4,13 @@ def bubbleSort(a):
             if a[j]>a[j+1]:
                 a[j],a[j+1]=a[j+1],a[j]
 
-print('Sorting by directly giving inputs.')
+print('Bubble Sorting by directly giving inputs.')
 arr = [54,69,85,48,52]
 bubbleSort(arr)
 for i in range(len(arr)):
     print(arr[i])
 
-print('Sorting by taking input from user.')
+print('Bubble Sorting by taking input from user.')
 n = int(input('Enter the number of elements: '))
 arr2=[]
 print('Enter the elements: ')
