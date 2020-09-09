@@ -26,7 +26,7 @@ print('Enter the elements: ')
 for i in range(0,n):
     ele = int(input())
     arr2.append(ele)
-k=max(arr)
+k=max(arr2)
 sorted_list2 = counting_sort(arr2,k)
 print('sorted elements: ')
 for i in range(len(sorted_list2)):
